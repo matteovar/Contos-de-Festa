@@ -2,6 +2,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   background-color: #7c2843;
   color: white;
+}
+
+.nav-links {
+  gap: 1rem;
 }
