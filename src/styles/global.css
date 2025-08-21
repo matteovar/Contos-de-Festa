@@ -15,16 +15,18 @@
   --bg-primary: linear-gradient(150deg, #ffffff, #722e43);
   --bg-secondary: #722e43;
   --box-color: rgba(255, 255, 255, 0.3);
+  --btn-color: #946262;
 }
 
 body {
   background: var(--bg-primary);
-  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 .container {
   width: 100%;
-  max-width: 1800px;
   padding: 1rem;
   margin-inline: auto;
 }

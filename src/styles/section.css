@@ -1,0 +1,7 @@
+section h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font: var(--fs-xl) / 1 var(--ff-secondary);
+}

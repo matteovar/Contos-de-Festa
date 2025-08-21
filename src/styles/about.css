@@ -15,15 +15,7 @@
 
   max-width: 90rem;
   padding: 5rem;
-  border: solid 1px var(--bg-secondary);
-}
-
-h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font: var(--fs-xl) / 1 var(--ff-secondary);
+  border: solid 2px var(--bg-secondary);
 }
 
 p {
