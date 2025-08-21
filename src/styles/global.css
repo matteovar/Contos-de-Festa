@@ -8,7 +8,7 @@
   --fs-xl: 2.5rem;
   --fs-lg: 2rem;
 
-  --bg-primary: ;
+  --bg-primary: linear-gradient(150deg, #ffffff, #722e43);
 }
 
 .container {
