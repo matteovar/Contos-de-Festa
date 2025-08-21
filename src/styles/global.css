@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background: hsl(0, 100%, 100%);
-  color: #333;
+:root {
+  --fs-xl: 2.5rem;
+  --fs-lg: 2rem;
+
+  --bg-primary: ;
 }
+
 .container {
   width: 100%;
   max-width: 1800px;
@@ -16,12 +18,12 @@ body {
   margin-inline: auto;
 }
 
-nav a {
+a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-nav a:hover {
+a:hover {
   text-decoration: underline;
 }
