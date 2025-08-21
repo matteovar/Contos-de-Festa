@@ -1,0 +1,33 @@
+#about {
+  display: flex;
+  justify-content: center;
+}
+
+#about article {
+  display: grid;
+  margin-top: 3rem;
+  background-color: var(--box-color);
+  border-radius: 2.5rem;
+
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+
+  max-width: 90rem;
+  padding: 5rem;
+  border: solid 1px var(--bg-secondary);
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font: var(--fs-xl) / 1 var(--ff-secondary);
+}
+
+p {
+  max-width: 50rem;
+  font: var(--fs-lg) / 1.5 var(--ff-tertiary);
+  font-weight: 300;
+}

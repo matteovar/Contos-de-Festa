@@ -5,11 +5,16 @@
 }
 
 :root {
-  --fs-xl: 2.5rem;
-  --fs-lg: 2rem;
+  --fs-xl: 2rem;
+  --fs-lg: 1.25rem;
+
+  --ff-primary: "Inter", sans-serif;
+  --ff-secondary: "Berkshire Swash", cursive;
+  --ff-tertiary: "Josefin Sans", sans-serif;
 
   --bg-primary: linear-gradient(150deg, #ffffff, #722e43);
   --bg-secondary: #722e43;
+  --box-color: rgba(255, 255, 255, 0.3);
 }
 
 body {
