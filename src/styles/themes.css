@@ -1,8 +1,29 @@
 #themes {
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 #themes img {
   width: 18rem;
   height: 18rem;
+}
+
+.box {
+  background-color: var(--box-color);
+  border-radius: 2.5rem;
+  border: solid 2px var(--bg-secondary);
+}
+
+.boxs {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.boxs h2 {
+  font-size: var(--fs-lg);
+  font-family: var(--ff-secondary);
+  color: white;
+  text-align: center;
 }
