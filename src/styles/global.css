@@ -9,7 +9,7 @@
   --fs-lg: 1.25rem;
 
   --ff-primary: "Inter", sans-serif;
-  --ff-secondary: "Berkshire Swash", cursive;
+  --ff-secondary: "Berkshire Swash", sans-serif;
   --ff-tertiary: "Josefin Sans", sans-serif;
 
   --bg-primary: linear-gradient(150deg, #ffffff, #722e43);

@@ -24,6 +24,6 @@
 .boxs h2 {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary);
-  color: white;
+  color: black;
   text-align: center;
 }
