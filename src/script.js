@@ -20,7 +20,6 @@ document.querySelectorAll(".box").forEach((box) => {
   const themeData = themes[themeType];
   let currentIndex = 0;
 
-  // Seleciona a imagem principal (não a imagem do botão)
   const imgElement = box.querySelector("figure img:not(.btn img)");
   const titleElement = box.querySelector("h3");
 
