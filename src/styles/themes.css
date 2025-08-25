@@ -38,27 +38,27 @@
   margin-bottom: 3rem;
 }
 
-.box div {
+figure {
   position: relative;
   display: inline-block;
   padding: 1.5rem;
 }
 
-.box img {
+figure img {
   display: block;
 }
 
-.box button {
+figure button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
 }
 
-#btn-left {
+.btn-left {
   left: 0.5rem;
 }
 
-#btn-right {
+.btn-right {
   right: 0.5rem;
 }
