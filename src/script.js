@@ -41,19 +41,19 @@ document.querySelectorAll(".box").forEach((box) => {
 });
 
 // Funcionalidade do formulário
-document.addEventListener('DOMContentLoaded', function() {
-  const form = document.querySelector('form');
-  
-  form.addEventListener('submit', function(e) {
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", function (e) {
     e.preventDefault(); // Previne o envio padrão do formulário
-    
+
     // Cria o overlay escuro
-    const overlay = document.createElement('div');
-    overlay.className = 'modal-overlay';
-    
+    const overlay = document.createElement("div");
+    overlay.className = "modal-overlay";
+
     // Cria o modal 3D
-    const modal = document.createElement('div');
-    modal.className = 'modal-3d';
+    const modal = document.createElement("div");
+    modal.className = "modal-3d";
     modal.innerHTML = `
       <div class="modal-content">
         <div class="success-icon">✓</div>
@@ -62,30 +62,32 @@ document.addEventListener('DOMContentLoaded', function() {
         <button class="close-modal-btn">Fechar</button>
       </div>
     `;
-    
+
     // Adiciona o overlay e modal ao body
     document.body.appendChild(overlay);
     document.body.appendChild(modal);
-    
+
     // Adiciona classes para animação
     setTimeout(() => {
-      overlay.classList.add('show');
-      modal.classList.add('show');
+      overlay.classList.add("show");
+      modal.classList.add("show");
     }, 10);
-    
+
     // Função para fechar o modal
     function closeModal() {
-      overlay.classList.remove('show');
-      modal.classList.remove('show');
-      
+      overlay.classList.remove("show");
+      modal.classList.remove("show");
+
       setTimeout(() => {
         document.body.removeChild(overlay);
         document.body.removeChild(modal);
       }, 300);
     }
-    
+
     // Event listeners para fechar
-    modal.querySelector('.close-modal-btn').addEventListener('click', closeModal);
-    overlay.addEventListener('click', closeModal);
+    modal
+      .querySelector(".close-modal-btn")
+      .addEventListener("click", closeModal);
+    overlay.addEventListener("click", closeModal);
   });
 });
