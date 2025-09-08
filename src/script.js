@@ -8,6 +8,7 @@ document.querySelectorAll(".box").forEach((box) => {
     neutral: [
       { img: "assets/neutral_theme.svg", title: "Tema de urso" },
       { img: "assets/neutral_theme2.png", title: "Tema de natureza" },
+      { img: "assets/neutral_theme3.png", title: "Tema de animais" },
     ],
     girl: [
       { img: "assets/girl_theme.svg", title: "Tema de princesa" },
