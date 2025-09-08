@@ -90,4 +90,69 @@ document.addEventListener("DOMContentLoaded", function () {
       .addEventListener("click", closeModal);
     overlay.addEventListener("click", closeModal);
   });
+
+  const kitsSelect = document.getElementById("kits");
+  const detalhesDiv = document.getElementById("detalhes-kit");
+
+  kitsSelect.addEventListener("change", function () {
+    let conteudo = "";
+
+    if (this.value === "kit-compact") {
+      conteudo = `
+        <h4>Kit Compacto inclui:</h4>
+        <ul>
+          <li>3 mesas cilíndricas</li>
+          <li>Painel circular com tecido</li>
+          <li>Bolo personalizado</li>
+          <li>4 bandejas decorativas</li>
+          <li>3 bonecos temáticos</li>
+          <li>2 garrafas decorativas</li>
+          <li>1 kit de flor</li>
+        </ul>
+      `;
+    } else if (this.value === "personalizado") {
+      conteudo = `
+        <h4>Kit Personalizado:</h4>
+        <p>Montamos conforme sua necessidade. Entre em contato para definir os itens.</p>
+      `;
+    } else if (this.value === "kit-profissional") {
+      conteudo = `
+        <h4>Kit Profissional inclui:</h4>
+        <ul>
+          <li>3 mesas cilíndricas com tecido</li>
+          <li>Painel circular com tecido</li>
+          <li> Painel retangular com tecido</li>
+          <li> Bolo personalizado</li>
+          <li> 4 bandejas decorativas</li>
+          <li> 3 bonecos temáticos</li>
+          <li> 2 garrafas decorativas</li> 
+          <li> 1 kit de flor</li>
+          <li> 1 apoio de chão</li>
+        </ul>
+      `;
+    } else if (this.value === "kit-vip") {
+      conteudo = `
+        <h4>Kit VIP inclui:</h4>
+        <ul>
+          <li>3 mesas cilíndricas com tecido</li>
+          <li>Painel circular com tecido</li>
+          <li> 2 Paineis Romanos</li>
+          <li> Bolo personalizado</li>
+          <li> 4 bandejas decorativas</li>
+          <li> 3 bonecos temáticos</li>
+          <li> 2 garrafas decorativas</li> 
+          <li> 1 kit de flor</li>
+          <li> 1 apoio de chão</li>
+        </ul>
+      `;
+    }
+
+    if (conteudo) {
+      detalhesDiv.innerHTML = conteudo;
+      detalhesDiv.style.display = "block";
+    } else {
+      detalhesDiv.innerHTML = "";
+      detalhesDiv.style.display = "none";
+    }
+  });
 });

@@ -107,70 +107,64 @@
       </article>
     </section>
 
-    <section id="contact" class="container">
-      <form action="">
-        <fieldset class="full-width">
-          <section class="form-field">
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" required />
-          </section>
-        </fieldset>
+    <section id="themes" class="container">
+      <h1>Contato</h1>
+      <section id="contact">
+        <form action="">
+          <fieldset class="full-width">
+            <section class="form-field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required />
+            </section>
+          </fieldset>
 
-        <fieldset>
-          <section class="form-field">
-            <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" name="telefone" required />
-          </section>
-          <section class="form-field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </section>
-        </fieldset>
+          <fieldset>
+            <section class="form-field">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" required />
+            </section>
+            <section class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </section>
+          </fieldset>
 
-        <fieldset class="full-width">
-          <section class="form-field">
-            <label for="tema">Tema da Festa:</label>
-            <input type="text" id="tema" name="tema" required />
-          </section>
-        </fieldset>
+          <fieldset class="full-width">
+            <section class="form-field">
+              <label for="tema">Tema da Festa:</label>
+              <input type="text" id="tema" name="tema" required />
+            </section>
+          </fieldset>
 
-        <fieldset class="full-width">
-          <section class="form-field">
-            <label for="kits">Kits disponíveis:</label>
-            <select id="kits" name="kits" required>
-              <option value="">Selecione um kit</option>
-              <optgroup label="Menino">
-                <option value="menino-urso">Tema de Urso</option>
-                <option value="menino-carros">Tema de Carros</option>
-                <option value="menino-dinossauro">Tema de Dinossauro</option>
-              </optgroup>
-              <optgroup label="Neutro">
-                <option value="neutro-urso">Tema de Urso</option>
-                <option value="neutro-natureza">Tema de Natureza</option>
-              </optgroup>
-              <optgroup label="Menina">
-                <option value="menina-princesa">Tema de Princesa</option>
-                <option value="menina-flores">Tema de Flores</option>
-                <option value="menina-unicornio">Tema de Unicórnio</option>
-              </optgroup>
-              <option value="personalizado">Kit Personalizado</option>
-            </select>
-          </section>
-        </fieldset>
+          <fieldset class="full-width">
+            <section class="form-field">
+              <label for="kits">Kits disponíveis:</label>
+              <select id="kits" name="kits" required>
+                <option value="">Selecione um kit</option>
+                  <option value="kit-compact">Kit-Compat</option>
+                  <option value="kit-profissional">Kit Profissional</option>
+                  <option value="kit-vip">Kit VIP</option>
+                  <option value="personalizado">Kit Personalizado</option>
+                </optgroup>
+              </select>
+            </section>
+          </fieldset>
+          <div id="detalhes-kit" class="kit-detalhes"></div>
 
-        <fieldset>
-          <section class="form-field">
-            <label for="data">Datas</label>
-            <input type="date" id="data" name="data" required />
-          </section>
-          <section class="form-field">
-            <label for="horario">Horários</label>
-            <input type="time" id="horario" name="horario" required />
-          </section>
-        </fieldset>
+          <fieldset>
+            <section class="form-field">
+              <label for="data">Datas</label>
+              <input type="date" id="data" name="data" required />
+            </section>
+            <section class="form-field">
+              <label for="horario">Horários</label>
+              <input type="time" id="horario" name="horario" required />
+            </section>
+          </fieldset>
 
-        <button type="submit" class="submit-btn">Agendar</button>
-      </form>
+          <button type="submit" class="submit-btn">Agendar</button>
+        </form>
+      </section>
     </section>
 
     <script src="script.js"></script>

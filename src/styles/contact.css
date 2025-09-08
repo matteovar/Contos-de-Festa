@@ -1,7 +1,7 @@
 #contact {
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
@@ -110,6 +110,35 @@ section.form-field textarea {
   transform: translateY(0);
 }
 
+/* 🔹 Detalhes do kit */
+.kit-detalhes {
+  display: none; /* 🔹 não aparece até que algo seja selecionado */
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  border: 2px solid var(--bg-secondary);
+}
+
+.kit-detalhes h4 {
+  margin-bottom: 0.5rem;
+  font-family: var(--ff-secondary);
+  color: #333;
+}
+
+.kit-detalhes p,
+.kit-detalhes li {
+  font-family: var(--ff-tertiary);
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.kit-detalhes ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
 /* Modal Overlay - Fundo escuro */
 .modal-overlay {
   position: fixed;
@@ -145,28 +174,36 @@ section.form-field textarea {
 }
 
 .modal-content {
-  background: linear-gradient(135deg, rgba(255, 192, 203, 0.95), rgba(221, 160, 221, 0.95));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 192, 203, 0.95),
+    rgba(221, 160, 221, 0.95)
+  );
   border-radius: 2rem;
   border: solid 3px var(--bg-secondary);
   padding: 3rem;
   max-width: 500px;
   width: 90vw;
   text-align: center;
-  box-shadow: 
-    0 20px 40px rgba(0, 0, 0, 0.3),
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3),
     0 0 0 1px rgba(255, 255, 255, 0.2) inset;
   transform-style: preserve-3d;
   position: relative;
 }
 
 .modal-content::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -10px;
   left: -10px;
   right: -10px;
   bottom: -10px;
-  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
   border-radius: 2rem;
   z-index: -1;
 }
@@ -174,7 +211,7 @@ section.form-field textarea {
 .success-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #4CAF50, #45a049);
+  background: linear-gradient(135deg, #4caf50, #45a049);
   border-radius: 50%;
   display: flex;
   align-items: center;
