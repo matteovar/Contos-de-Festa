@@ -1,0 +1,111 @@
+#contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+#contact form {
+  background-color: var(--box-color);
+  border-radius: 2.5rem;
+  border: solid 2px var(--bg-secondary);
+  padding: 3rem;
+  width: 100%;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+fieldset {
+  display: flex;
+  gap: 1rem;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+fieldset.full-width {
+  flex-direction: column;
+}
+
+section.form-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+section.form-field label {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-lg);
+  color: black;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+section.form-field input,
+section.form-field select,
+section.form-field textarea {
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: var(--ff-tertiary);
+  font-size: 1rem;
+  color: #333;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+section.form-field input:focus,
+section.form-field select:focus,
+section.form-field textarea:focus {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 2px var(--bg-secondary);
+}
+
+section.form-field input::placeholder,
+section.form-field textarea::placeholder {
+  color: #666;
+  font-style: italic;
+}
+
+section.form-field select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  padding-right: 3rem;
+}
+
+section.form-field textarea {
+  resize: vertical;
+  min-height: 4rem;
+  border-radius: 1rem;
+}
+
+.submit-btn {
+  background-color: var(--btn-color);
+  color: white;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-lg);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+  margin-top: 1rem;
+}
+
+.submit-btn:hover {
+  background-color: var(--bg-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
