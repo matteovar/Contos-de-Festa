@@ -1,0 +1,45 @@
+footer.footer {
+  background-color: var(--bg-secondary);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 3px solid #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center; /* logo e texto no mesmo eixo */
+  justify-content: center;
+  gap: 1rem; /* espaço entre logo e texto */
+  margin-bottom: 1rem;
+}
+
+.footer-logo {
+  width: 100px; /* 🔹 aumentei o tamanho */
+  height: 100px;
+}
+
+.footer-content p {
+  font-family: var(--ff-secondary);
+  font-size: 1.2rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  color: white;
+  font-family: var(--ff-secondary);
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #ffd6e0;
+}
