@@ -2,18 +2,18 @@ document.querySelectorAll(".box").forEach((box) => {
   const themes = {
     boy: [
       { img: "assets/boy_theme.svg", title: "Tema de urso" },
-      { img: "assets/boy_theme2.png", title: "Tema de carros" },
-      { img: "assets/boy_theme3.png", title: "Tema de dinossauro" },
+      { img: "assets/boy_theme2.png", title: "Tema de Pokemon" },
+      { img: "assets/boy_theme3.png", title: "Tema das Tartarugas Ninjas" },
     ],
     neutral: [
-      { img: "assets/neutral_theme.svg", title: "Tema de urso" },
-      { img: "assets/neutral_theme2.png", title: "Tema de natureza" },
-      { img: "assets/neutral_theme3.png", title: "Tema de animais" },
+      { img: "assets/neutral_theme.svg", title: "Tema de aniversário" },
+      { img: "assets/neutral_theme2.png", title: "Tema preto e branco" },
+      { img: "assets/neutral_theme3.png", title: "Tema de chá de casa nova" },
     ],
     girl: [
       { img: "assets/girl_theme.svg", title: "Tema de princesa" },
-      { img: "assets/girl_theme2.png", title: "Tema de flores" },
-      { img: "assets/girl_theme3.png", title: "Tema de unicórnio" },
+      { img: "assets/girl_theme2.png", title: "Tema da Moana" },
+      { img: "assets/girl_theme3.png", title: "Tema da Magali" },
     ],
   };
 
