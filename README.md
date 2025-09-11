@@ -31,3 +31,11 @@ A página principal reúne todas as funcionalidades essenciais do site, com uma 
 Após a realização do agendamento pelo cliente, a segunda tela exibirá uma mensagem de confirmação, garantindo que a solicitação foi registrada com sucesso. Nela, o cliente será informado de que a equipe do Conto de Festas entrará em contato em breve para validar os dados fornecidos e alinhar os detalhes da celebração.
 
 ![Screenshot pagina confirmacao](src/assets/print_pagina_dois.png)
+
+## Responsividade
+
+Nosso projeto foi planejado inicialmente apenas para dispositivos móveis.
+Como a maioria dos acessos virá pelo Instagram — plataforma onde são
+apresentadas todas as decorações — decidimos priorizar a versão mobile. Dessa
+forma, garantimos uma boa experiência em smartphones como iPhone, Samsung
+e outros aparelhos com telas em torno de 400px de largura.
